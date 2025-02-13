@@ -46,6 +46,7 @@ body {
     color: var(--black);
     line-height: 1.5;
     overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 body::-webkit-scrollbar{
