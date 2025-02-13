@@ -225,6 +225,7 @@ body::-webkit-scrollbar{
 
 /* Gallery Styles */
 .gallery {
+    padding: 20px;
     position: absolute;
     top: 80%;
     left: 50%;
@@ -252,6 +253,8 @@ body::-webkit-scrollbar{
     isolation: isolate;
     position: relative;
     height: 80vh;
+    touch-action: auto; /* Allows smooth scrolling */
+    pointer-events: none;
 }
 
 .gallery-item:hover {
